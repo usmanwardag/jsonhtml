@@ -1,0 +1,286 @@
+<html><head><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head>
+	<body>
+
+	<div class="container">
+	  <h2>MarkConfig</h2>
+	  <p>Description not available at the moment.</h2>
+	  <br><br>
+	  <table class="table">
+	    <thead>
+	      <tr>
+	        <th>Properties</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>tickThickness<i></td>
+	        
+	        <td><br>Thickness of the tick mark.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>color<i></td>
+	        
+	        <td><br>Default color.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>text<i></td>
+	        
+	        <td><br>Placeholder Text</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>strokeOpacity<i></td>
+	        
+	        <td><br>NA</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i><a href="shape.html">shape</a><i></td>
+	        
+	        <td><br>The symbol shape to use. One of circle (default), square, cross, diamond, triangle-up, or triangle-down.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>radius<i></td>
+	        
+	        <td><br>Polar coordinate radial offset, in pixels, of the text label from the origin determined by the x and y properties.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>shortTimeLabels<i></td>
+	        
+	        <td><br>Whether month names and weekday names should be abbreviated.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>strokeDash<i></td>
+	        
+	        <td><br>An array of alternating stroke, space lengths for creating dashed or dotted lines.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>font<i></td>
+	        
+	        <td><br>The typeface to set the text in (e.g., Helvetica Neue).</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>orient<i></td>
+	        
+	        <td><br>The orientation of a non-stacked bar, tick, area, and line charts.The value is either horizontal (default) or vertical.- For bar, rule and tick, this determines whether the size of the bar and tickshould be applied to x or y dimension.- For area, this property determines the orient property of the Vega output.- For line, this property determines the sort order of the points in the lineif `config.sortLineBy` is not specified.For stacked charts, this is always determined by the orientation of the stack;therefore explicitly specified value will be ignored.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>size<i></td>
+	        
+	        <td><br>The pixel area each the point. For example: in the case of circles, the radius is determined in part by the square root of the size value.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>angle<i></td>
+	        
+	        <td><br>The rotation angle of the text, in degrees.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>baseline<i></td>
+	        
+	        <td><br>The vertical alignment of the text. One of top, middle, bottom.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>applyColorToBackground<i></td>
+	        
+	        <td><br>Apply color field to background color instead of the text.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>fontSize<i></td>
+	        
+	        <td><br>The font size, in pixels.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>theta<i></td>
+	        
+	        <td><br>Polar coordinate angle, in radians, of the text label from the origin determined by the x and y properties. Values for theta follow the same convention of arc mark startAngle and endAngle properties: angles are measured in radians, with 0 indicating "north".</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>fill<i></td>
+	        
+	        <td><br>Default Fill Color.  This has higher precedence than config.color</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>filled<i></td>
+	        
+	        <td><br>Whether the shape\'s color should be used as fill color instead of stroke color.This is only applicable for "bar", "point", and "area".All marks except "point" marks are filled by default.See Mark Documentation (http://vega.github.io/vega-lite/docs/marks.html)for usage example.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>opacity<i></td>
+	        
+	        <td><br>NA</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>tension<i></td>
+	        
+	        <td><br>Depending on the interpolation type, sets the tension parameter.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>strokeWidth<i></td>
+	        
+	        <td><br>NA</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>format<i></td>
+	        
+	        <td><br>The formatting pattern for text value. If not defined, this will be determined automatically.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i><a href="interpolate.html">interpolate</a><i></td>
+	        
+	        <td><br>The line interpolation method to use. One of linear, step-before, step-after, basis, basis-open, cardinal, cardinal-open, monotone.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>strokeDashOffset<i></td>
+	        
+	        <td><br>The offset (in pixels) into which to begin drawing with the stroke dash array.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>barThinSize<i></td>
+	        
+	        <td><br>The size of the bars on continuous scales.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i><a href="fontStyle.html">fontStyle</a><i></td>
+	        
+	        <td><br>The font style (e.g., italic).</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>fillOpacity<i></td>
+	        
+	        <td><br>NA</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>dx<i></td>
+	        
+	        <td><br>The horizontal offset, in pixels, between the text label and its anchor point. The offset is applied after rotation by the angle property.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>dy<i></td>
+	        
+	        <td><br>The vertical offset, in pixels, between the text label and its anchor point. The offset is applied after rotation by the angle property.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>barSize<i></td>
+	        
+	        <td><br>The size of the bars.  If unspecified, the default size is  `bandSize-1`,which provides 1 pixel offset between bars.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>stacked<i></td>
+	        
+	        <td><br>NA</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i><a href="fontWeight.html">fontWeight</a><i></td>
+	        
+	        <td><br>The font weight (e.g., bold).</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>lineSize<i></td>
+	        
+	        <td><br>Size of line mark.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>align<i></td>
+	        
+	        <td><br>The horizontal alignment of the text. One of left, right, center.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>stroke<i></td>
+	        
+	        <td><br>Default Stroke Color.  This has higher precedence than config.color</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>tickSize<i></td>
+	        
+	        <td><br>The width of the ticks.</td>
+	      </tr>
+	    
+	      <tr>
+	        
+	        <td class="col-md-2"><i>ruleSize<i></td>
+	        
+	        <td><br>Size of rule mark.</td>
+	      </tr>
+	    
+	    </tbody>
+	  </table>
+	</div>
+	</body>
+	</html>
+	
